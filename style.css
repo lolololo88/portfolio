@@ -1,0 +1,68 @@
+body {
+    background: linear-gradient(to bottom, #222, #444, #666, #888, #aaa, #ccc, #ddd);
+    color: white;
+    text-align: center;
+    height: 250vh;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+#home {
+    background-color: #f4f4f4;
+}
+
+#university {
+    background-color: #ddd;
+}
+
+#about {
+    background-color: #bbb;
+}
+
+#achievements {
+    background-color: #999;
+}
+
+#contacts {
+    background-color: #777;
+    color: white;
+}
+
+#home { background: rgba(255, 255, 255, 0.1); }
+#study { background: rgba(255, 255, 255, 0.2); }
+#achievements { background: rgba(255, 255, 255, 0.3); }
+#gallery { background: rgba(255, 255, 255, 0.4); }
+#contacts { background: rgba(255, 255, 255, 0.5); color: black; }
